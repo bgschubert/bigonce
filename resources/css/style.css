@@ -8,9 +8,12 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 65px;
+  height: 4.5rem;
   width: 100%;
   position: fixed;
+  background-color: white;
+  z-index: 5;
+  overflow: hidden;
 }
 
 h1 {
@@ -78,3 +81,27 @@ i {
 }
 
 /*end header styling*/
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 53.125rem;
+  top: 5rem;
+}
+
+.image-carousel {
+  height: 100%;
+  overflow: auto;
+  padding: 0 3rem;
+
+}
+
+img {
+  width: 100%;
+  height: 850px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
