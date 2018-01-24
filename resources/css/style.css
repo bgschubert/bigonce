@@ -1,0 +1,80 @@
+html {
+  font-size: 16px;
+}
+
+/*header styling*/
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "chicagoflf";
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  padding-left: 5rem;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5rem;
+}
+
+i {
+  padding-left: 2rem;
+  color: black;
+}
+
+.facebook i:hover {
+  color: #3b5998;
+}
+
+.soundcloud i:hover {
+  color: #f46e42;
+}
+
+.instagram i:hover {
+  color: #3b5998;
+}
+
+.youtube i:hover {
+  color: #ff0000;
+}
+
+.twitter i:hover {
+  color: #0084b4;
+}
+
+/*end header styling*/
