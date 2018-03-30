@@ -8,56 +8,49 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/chicagoflf" type="text/css"/>
     <link href="./resources/font-awesome-4.7.0/css/font-awesome.css" type="text/css" rel="stylesheet">
   </head>
   <body>
 
-    <header class="flex navbar">
-      <div class="header-menu">
-        <div class="flex typewriter">
-          <h1>Big_Once</h1>
-        </div>
+  <!--Start Site Header-->
 
-        <div class="social-icons flex">
-          <a class="facebook" href="https://www.facebook.com/bigonce/"><i class="fa fa-facebook fa-3x"></i></a>
-          <a class="soundcloud" href="https://soundcloud.com/bigonce"><i class="fa fa-soundcloud fa-3x"></i></a>
-          <a class="instagram" href="https://www.instagram.com/big_once/"><i class="fa fa-instagram fa-3x"></i></a>
-          <a class="youtube" href="https://www.youtube.com/channel/UCbxMY9lcHwvHTg2BshEtDRA/videos"><i class="fa fa-youtube-play fa-3x"></i></a>
-          <a class="twitter" href="https://twitter.com/big_once"><i class="fa fa-twitter-square fa-3x"></i></a>
-        </div>
+  <header class="container">
+    <div class="inner-container">
+      <div class="logo">
+        <img src="resources/images/BigOnce-logo-color-text.jpg" />
       </div>
-    </header>
+      <nav>
+        <span>Booking: booking@bigonce.com</span>
+      </nav>
+    </div>
+  </header>
 
-    <section class="jumbotron">
-      <div class="w3-content w3-section">
-        <img class="mySlides w3-animate-fading" src="./resources/images/BigOnce1.jpg" />
-        <img class="mySlides w3-animate-fading" src="./resources/images/BigOnce2.jpg" />
-        <img class="mySlides w3-animate-fading" src="./resources/images/BigOnce3.jpg" />
-        <img class="mySlides w3-animate-fading" src="./resources/images/BigOnce4.jpg" />
-        <img class="mySlides w3-animate-fading" src="./resources/images/BigOnce5.jpg" /><!--Was jumbo-animation-fading-->
+<section class="main">
+  <div class="main-container">
+    <div id="main" class="content">
+      <div class="main-image">
+        <img src="resources/images/BigOnce-logo-color-skull.jpg"
+      </div>
+    </div>
+
+    <div class="soundcloud">
+      <span><iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/447267&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe></span>
+    </div>
+
+    <div class="section-image">
+      <img src="resources/images/BigOnce5.jpg"
+    </div>
+
+    <div class="video">
+      <div class="video-header">
+        <h1>VIDEO</h1>
       </div>
 
-      <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-          }
-          myIndex++;
-          if (myIndex > x.length) {myIndex = 1}
-          x[myIndex-1].style.display = "block";
-          setTimeout(carousel, 9000);
-        }
-      </script>
-
-    </section>
+      <div class="youtube">
+        <span>
 
 
+  </div>
 
   </body>
 </html>
