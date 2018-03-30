@@ -43,10 +43,14 @@ header .inner-container {
   margin: 0 8rem;
 }
 
+.logo{
+  margin-left: 8rem;
+
+}
 .logo img {
   height: 75px;
   width: 250px;
-  margin-left: 8rem;
+
 }
 
 .container{
@@ -72,6 +76,11 @@ nav span {
 
 /*main logo styling*/
 
+.main-container {
+  width: 100%;
+  position: center;
+}
+
 .content{
   width: 1200px;
   margin: auto;
@@ -84,6 +93,7 @@ nav span {
   justify-content: center;
   margin: 0 auto;
   top: 70px;
+  padding-left: 4rem;
 }
 
 .main-image img {
@@ -91,3 +101,18 @@ nav span {
 }
 
 /*end main logo styling*/
+
+/*dividing image styling*/
+
+.section-image img {
+  width: 1200px;
+  height: 600px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Titillium Web;
+  weight: 700;
+  font-size: 4rem;
+  padding: 1rem 0;
+}
