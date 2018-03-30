@@ -185,3 +185,15 @@ footer {
   font-family: Titillium Web;
   font-size: .75rem;
 }
+
+.UDlink a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.UDlink a:hover {
+  text-decoration: none;
+  color: red;
+  font-weight: 700;
+  font-size: 1rem;
+}
