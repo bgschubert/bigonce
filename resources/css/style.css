@@ -40,11 +40,11 @@ header .inner-container {
   width: 100%;
   position: center;
   height: 100px;
-  margin: 0 8rem;
+  margin: 0 20rem;
 }
 
 .logo{
-  margin-left: 8rem;
+
 
 }
 .logo img {
@@ -63,7 +63,8 @@ header .inner-container {
 nav {
   padding: 1rem 1rem;
   border: 1px solid black;
-  margin-right: 8rem;
+  margin-right: .5rem;
+  border-radius: 25px;
 }
 
 nav span {
@@ -134,7 +135,7 @@ nav span {
 h1 {
   text-align: center;
   font-family: Titillium Web;
-  weight: 700;
+  font-weight: 700;
   font-size: 4rem;
   padding: 1rem 0;
   text-shadow: 2px 2px #DFDDDC;
@@ -162,4 +163,25 @@ h1 {
 
 .video-content-2 {
   padding-left: .15rem;
+}
+
+/*footer design*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.epk-button span {
+  font-size: 3.5rem;
+  font-weight: 700;
+  font-family: Titillium Web;
+  text-shadow: 2px 2px #DFDDDC;
+}
+
+.UDlink span {
+  font-family: Titillium Web;
+  font-size: .75rem;
 }
