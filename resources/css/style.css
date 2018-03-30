@@ -137,4 +137,29 @@ h1 {
   weight: 700;
   font-size: 4rem;
   padding: 1rem 0;
+  text-shadow: 2px 2px #DFDDDC;
+}
+
+/*youtube video section styling*/
+
+
+.youtube-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.youtube-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-content-1 {
+  padding-right: .15rem;
+}
+
+.video-content-2 {
+  padding-left: .15rem;
 }
