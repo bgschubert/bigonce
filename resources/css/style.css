@@ -18,61 +18,12 @@
 
 html {
   font-size: 16px;
+  background-color: #D3D3D3;
 }
 
 /*header styling*/
 
-header{
-  position: fixed;
-  z-index: 1;
-  height: 100px;
-  width: 100%;
-  background-color: white;
-  top: 0;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
 
-header .inner-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-  position: center;
-  height: 100px;
-}
-
-
-.logo{
-
-
-}
-.logo img {
-  height: 100px;
-  width: 100px;
-
-}
-
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-nav {
-  padding: 1rem 1rem;
-  border: 1px solid black;
-  margin-right: .5rem;
-  border-radius: 25px;
-
-}
-
-nav span {
-  font-family: Titillium Web;
-  font-weight: 700;
-  font-size: 1.25rem;
-}
 
 /*end header styling*/
 
@@ -127,17 +78,20 @@ nav span {
 }
 
 .main-image{
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  top: 80px;
+  top: 20px;
   padding-left: 4rem;
 }
 
 .main-image img {
-  height: 500px;
+  height: 200px;
+  width: 800px;
+  padding-right: 2.5rem;
 }
 
 /*end main logo styling*/
@@ -192,7 +146,7 @@ footer {
 }
 
 .epk-button span {
-  font-size: 3.5rem;
+  font-size: 2rem;
   font-weight: 700;
   font-family: Titillium Web;
   text-shadow: 2px 2px #DFDDDC;
