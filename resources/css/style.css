@@ -18,7 +18,7 @@
 
 html {
   font-size: 16px;
-  background-color: #939393;
+  background-color: #D3D3D3;
 }
 
 /*header styling*/
@@ -90,7 +90,7 @@ html {
 
 .main-image img {
   height: 200px;
-  width: 800px;
+  width: 1000px;
   padding-right: 2.5rem;
 }
 
@@ -150,6 +150,15 @@ footer {
   font-weight: 700;
   font-family: Titillium Web;
   text-shadow: 2px 2px #DFDDDC;
+}
+
+.epk-button a{
+  text-decoration: none;
+  color: black;
+}
+
+.epk-button a:hover {
+  color: red;
 }
 
 .UDlink span {
