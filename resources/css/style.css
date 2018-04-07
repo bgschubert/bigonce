@@ -32,13 +32,13 @@ html {
 .social-icons{
   position: fixed;
   right: 1rem;
-  top: 28%;
+  top: 22%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 3rem;
-  height: 6rem;
+  height: auto;
 }
 .social-icons .fa-twitter:hover {
   color: #00aced;
