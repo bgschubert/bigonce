@@ -122,11 +122,12 @@ h1 {
 
 }
 
-.youtube-bottom {
+/*youtube bottom styling*/
+/*.youtube-bottom {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+}*?
 
 .video-content-1 {
   padding-right: .15rem;
@@ -137,6 +138,10 @@ h1 {
 }
 
 /*footer design*/
+
+.dates-widget{
+  border: 1px black solid;
+}
 
 footer {
   display: flex;
