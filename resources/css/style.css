@@ -21,14 +21,11 @@ html {
   background-color: #D3D3D3;
 }
 
-/*header styling*/
 
-
-
-/*end header styling*/
-
-/*main logo styling*/
-
+body{
+  width: 70%;
+  margin: 0 auto;
+}
 .social-icons{
   position: fixed;
   right: 1rem;
@@ -39,6 +36,7 @@ html {
   align-items: center;
   width: 3rem;
   height: auto;
+  z-index: 1;
 }
 .social-icons .fa-twitter:hover {
   color: #00aced;
@@ -67,15 +65,13 @@ html {
   color: black;
 }
 
-.main-container {
-  width: 100%;
-  position: center;
-}
 
 .content{
-  width: 1200px;
+  width: 100%;
   margin: auto;
 }
+
+/*main logo styling*/
 
 .main-image{
   padding-top: 50px;
@@ -85,13 +81,13 @@ html {
   justify-content: center;
   margin: 0 auto;
   top: 20px;
-  padding-left: 4rem;
+
 }
 
 .main-image img {
-  height: 200px;
-  width: 1000px;
-  padding-right: 2.5rem;
+  height: auto;
+  width: 100%;
+  padding-left: 2rem;
 }
 
 /*end main logo styling*/
@@ -99,7 +95,7 @@ html {
 /*dividing image styling*/
 
 .section-image img {
-  width: 1200px;
+  width: 100%;
   height: 600px;
 }
 
@@ -115,33 +111,34 @@ h1 {
 /*youtube video section styling*/
 
 
-.youtube-top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
+.video-responsive {
+  width: 50%;
+  display: inline-block;
+  height: 56.25%;
+  margin: 0 -1px;
 }
 
-/*youtube bottom styling*/
-/*.youtube-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}*?
-
-.video-content-1 {
-  padding-right: .15rem;
+.aspect-ratio-16-9 {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
 }
 
-.video-content-2 {
-  padding-left: .15rem;
+.video-responsive iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
+
+
 
 /*footer design*/
 
-.dates-widget{
+/*.dates-widget{
   border: 1px black solid;
-}
+}*/
 
 footer {
   display: flex;
