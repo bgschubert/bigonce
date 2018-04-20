@@ -96,7 +96,7 @@ body{
 
 .section-image img {
   width: 100%;
-  height: 600px;
+  height: auto;
 }
 
 h1 {
@@ -136,9 +136,6 @@ h1 {
 
 /*footer design*/
 
-/*.dates-widget{
-  border: 1px black solid;
-}*/
 
 footer {
   display: flex;
@@ -178,4 +175,168 @@ footer {
   color: red;
   font-weight: 700;
   font-size: 1rem;
+}
+
+
+
+/* Tablet Portrait and Landscape */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    body{
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .social-icons{
+      position: static;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      top: 0;
+      z-index: 1;
+      background-color: #D3D3D3;
+      width: 100%;
+      margin: auto;
+    }
+
+    .social-icons i {
+      font-size: 2rem;
+      color: black;
+      margin: 0;
+    }
+
+    .main-image{
+      padding-top: 5px;
+      padding-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      top: 20px;
+    }
+
+    .main-image img {
+      height: auto;
+      width: 100%;
+      margin-right: 2rem;
+    }
+
+    footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .epk-button span {
+      font-size: 1.5rem;
+      font-weight: 700;
+      font-family: Titillium Web;
+      text-shadow: 2px 2px #DFDDDC;
+    }
+
+    .UDlink span {
+      font-family: Titillium Web;
+      font-size: .75rem;
+
+    }
+
+    .UDlink a {
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+
+
+}
+
+
+/* Mobile Portrait and Landscape */
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    body{
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .social-icons{
+      position: static;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      top: 0;
+      z-index: 1;
+      background-color: #D3D3D3;
+      width: 95%;
+      margin: 0;
+    }
+
+    .social-icons i {
+      font-size: 1rem;
+      color: black;
+    }
+
+    .main-image{
+      padding-top: 5px;
+      padding-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      top: 20px;
+    }
+
+    .main-image img {
+      height: auto;
+      width: 95%;
+      margin-right: 2rem;
+    }
+
+    .video-container{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .video-responsive {
+      width: 100%;
+      display: inline-block;
+      height: 56.25%;
+      margin: 5px -1px;
+    }
+
+    .aspect-ratio-16-9 {
+      width: 100%;
+      padding-top: 56.25%;
+      position: relative;
+    }
+
+    .video-responsive iframe {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+    }
+
+    .epk-button span {
+      font-size: 1rem;
+      font-weight: 700;
+      font-family: Titillium Web;
+      text-shadow: 2px 2px #DFDDDC;
+    }
+
+    footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .UDlink span {
+      display: none;
+
+    }
 }
